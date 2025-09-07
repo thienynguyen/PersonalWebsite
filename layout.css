@@ -1,5 +1,5 @@
 @font-face {
-    font-family: dansk;
+    font-family: branding-font;
     src: url(/../fonts/BrandingRegular.otf);
 }
 
@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: dansk;
+    font-family: branding-font;
     #links {
         width: 30%;
         display: flex;
