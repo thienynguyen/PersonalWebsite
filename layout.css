@@ -38,8 +38,18 @@ p{
     display: flex;
     flex-direction: column;
     gap: 80px;
-    > *{
-
+    #funimages {
+        padding-top: 40px;
+        gap: 40px;
+        display: flex;
+        flex-flow: row wrap;
+        img{
+            max-height: 300px;
+        }
+        .funimage{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
 
